@@ -1,6 +1,6 @@
 {
   "name": "gulp-cssfont64",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Encode base64 data from font-files and store the result in a css file.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "url": "https://github.com/247even/gulp-cssfont64"
   },
   "keywords": [
-    "gulpplugin", "encode", "base64", "font", "css", "ttf"
+    "gulpplugin",
+    "encode",
+    "base64",
+    "font",
+    "css",
+    "ttf"
   ],
   "author": {
     "name": "247even",
@@ -19,22 +24,23 @@
   },
   "license": "MIT",
   "dependencies": {
-    "gulp-util": "~2.2.14",
-    "through2": "~0.4.1",
-    "cheerio": "~0.13.1",
-    "mime": "~1.2.1"
+    "mime": "^2.3.1",
+    "plugin-error": "^1.0.1",
+    "replace-ext": "^1.0.0",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
-    "mocha": "~1.17.1"
+    "mocha": "^5.2.0",
+    "vinyl": "^2.2.0"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=6.4"
   },
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/247even/gulp-cssfont64/issues"
   },
   "homepage": "https://github.com/247even/gulp-cssfont64",
-  "_id": "gulp-cssfont64@0.0.1",
+  "_id": "gulp-cssfont64@0.1.0",
   "_from": "gulp-cssfont64@"
 }
